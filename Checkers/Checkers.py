@@ -11,8 +11,8 @@ WHITE = 1
 class Coord:
 # functional class because it does not update the attributes
     def __init__(self,r,c):
-        self.r = r
-        self.c = c
+        self.r = r # row number
+        self.c = c # column number
 
     def row(self):
         return self.r
